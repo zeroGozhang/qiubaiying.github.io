@@ -8,13 +8,19 @@ header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
     - Blog
+    - hana
+    - Hadoop
+    - TDH
 ---
 
 # 前期准备
-1、 进入客户端sqoop目录µ
+1、 进入客户端sqoop目录
+
    cd /mnt/disk1/softwares/TDH-Client/sqoop
 
-2、 拷贝ngdbc.jar包到TDH-Client/sqoop/libs目录下
+2、 拷贝ngdbc.jar包到TDH-Client/sqoop/libs目录下(ngdbc.jar可以在hana官网下载)
+
+   cp ngdbc.jar TDH-Client/sqoop/libs
 
 # Sqoop获取Hana数据命令
 ```

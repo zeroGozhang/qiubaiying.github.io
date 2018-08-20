@@ -1,10 +1,10 @@
 # Site settings
-title: BY Blog
-SEOTitle: zeroGo | BY Blog
+title: zeroGoZhang Blog
+SEOTitle: zeroGo | zeroGoZhang Blog | 博客 | git pages
 header-img: img/post-bg-desk.jpg
 email: 1060056932@qq.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 张文锋的博客, 张文锋, zeroGo, 张武锋的博客, "
+keyword: "zeroGoZhang, zeroGoZhang Blog, 张文锋的博客, 张文锋, zeroGo, 张武锋的博客, "
 url: "https://zerogozhang.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/zeroGozhang/zeroGoZhang.github.io" # you code repository

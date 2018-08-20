@@ -8,6 +8,7 @@ header-img: img/post-bg-ioses.jpg
 catalog: true
 tags:
     - Blog
+    - ShadowSocks
 ---
 
 > 夫千里之行，始于足下。苟自强不息，亦何远而不届哉？
