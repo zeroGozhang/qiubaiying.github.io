@@ -1,18 +1,18 @@
 # Site settings
 title: zeroGoZhang Blog
-SEOTitle: zeroGo | zeroGoZhang Blog | 博客 | git pages
+SEOTitle: zeroGo | zeroGoZhang Blog | 博客 | git pages| 大数据 | 前端笔记 | 架构  | 干货
 header-img: img/post-bg-desk.jpg
 email: 1060056932@qq.com
 description: "Every failure is leading towards success."
-keyword: "zeroGoZhang, zeroGoZhang Blog, 张文锋的博客, 张文锋, zeroGo, 张武锋的博客, "
+keyword: "zeroGoZhang, zeroGoZhang Blog, 张文锋的博客, 张文锋, zeroGo, 张武锋的博客,大数据, 架构, 干货分享 "
 url: "https://zerogozhang.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/zeroGozhang/zeroGoZhang.github.io" # you code repository
 
 # Sidebar settings
-#sidebar: true                           # whether or not using Sidebar.
-#sidebar-about-description: "Goals determine what you going to be!"
-#sidebar-avatar: /img/about-BY-gentle1.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Goals determine what you going to be!"
+sidebar-avatar: /img/about-BY-gentle1.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
