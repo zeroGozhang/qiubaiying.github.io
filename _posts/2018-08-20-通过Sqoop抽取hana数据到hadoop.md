@@ -34,7 +34,7 @@ parameter:
 ./bin/sqoop list-tables --username $hana_users --password $hana_password --connect jdbc:sap://$hana_ip:hana_port/ --driver com.sap.db.jdbc.Driver
 
 * 把数据从hana导入hdfs
-./bin/sqoop import --username p520214 --password 1q3DCa@ws --connect jdbc:sap://$hana_ip:hana_port?currentschema=SYS  --driver com.sap.db.jdbc.Driver --query 'select USER_ID,USER_NAME,USER_MODE from SYS.USERS WHERE $CONDITIONS' --delete-target-dir  --target-dir=/user/sqoop/USERS --split-by USER_ID --num-mappers 1
+./bin/sqoop import --username $name --password $pwd --connect jdbc:sap://$hana_ip:hana_port?currentschema=SYS  --driver com.sap.db.jdbc.Driver --query 'select USER_ID,USER_NAME,USER_MODE from SYS.USERS WHERE $CONDITIONS' --delete-target-dir  --target-dir=/user/sqoop/USERS --split-by USER_ID --num-mappers 1
 
 # inceptor 建立外表验证抽取到hadoop数据
 1、在inceptor里建立外表
